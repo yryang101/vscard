@@ -166,8 +166,8 @@ body {
   align-items: center;
   gap: 10px;
   font-size: 15px;
-  color: #374151;
-  font-weight: 500;
+  color: #2D3748;
+  font-weight: 600;
 }
 
 .icon {
@@ -175,7 +175,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .copy-message {
