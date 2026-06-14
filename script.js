@@ -3,23 +3,23 @@ document.addEventListener("DOMContentLoaded", function () {
   const copyMessage = document.getElementById("copyMessage");
 
   copyButtons.forEach(function (button) {
-    button.addEventListener("click", function () {
+    button.addEventListener("click", async function () {
       const text = button.dataset.copy;
 
-      navigator.clipboard
-        .writeText(text)
-        .then(function () {
-          copyMessage.textContent = text + " 복사되었습니다.";
-          copyMessage.classList.add("show");
+      try {
+        await navigator.clipboard.writeText(text);
 
-          setTimeout(function () {
-            copyMessage.classList.remove("show");
-          }, 1500);
-        })
-        .catch(function () {
-          copyMessage.textContent = "복사에 실패했습니다.";
-          copyMessage.classList.add("show");
-        });
+        copyMessage.textContent = text + " 복사되었습니다.";
+        copyMessage.classList.add("show");
+
+        setTimeout(function () {
+          copyMessage.classList.remove("show");
+          copyMessage.textContent = "";
+        }, 1500);
+      } catch (error) {
+        copyMessage.textContent = "복사에 실패했습니다.";
+        copyMessage.classList.add("show");
+      }
     });
   });
 });
