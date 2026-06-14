@@ -6,6 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", async function () {
       const text = button.dataset.copy;
 
+      if (!text) {
+        return;
+      }
+
       try {
         await navigator.clipboard.writeText(text);
 
