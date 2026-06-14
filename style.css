@@ -103,7 +103,7 @@ body {
 .info {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
   margin-top: 24px;
 }
 
@@ -113,7 +113,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 9px 16px;
+  padding: 10px 16px;
   border-radius: 14px;
   background: #FAF1F4;
   border: 1px solid #EBC3CD;
@@ -154,20 +154,18 @@ body {
 }
 
 .info-label {
+  display: block;
   font-size: 9px;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.8px;
-  color: #64748B;
-  margin-bottom: 1px;
+  color: #A0AEC0;
+  margin-bottom: 3px;
 }
 
 .info-main {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 14px;
-  color: #374151;
-  font-weight: 500;
 }
 
 .icon {
@@ -175,7 +173,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  font-size: 17px;
+  font-size: 13px;
 }
 
 .copy-message {
