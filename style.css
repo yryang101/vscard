@@ -148,7 +148,24 @@ body {
   justify-content: center;
   padding: 14px 10px;
 }
+.info-content {
+  width: 100%;
+}
 
+.info-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #A0AEC0;
+  margin-bottom: 6px;
+}
+
+.info-main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 .icon {
   width: 26px;
   height: 26px;
