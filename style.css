@@ -95,7 +95,8 @@ body {
 }
 
 .tag-wide {
-  width: 100%;
+  width: auto;
+  min-width: 170px;
   text-align: center;
 }
 
@@ -112,7 +113,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 14px 16px;
+  padding: 11px 16px;
   border-radius: 14px;
   background: #FAF1F4;
   border: 1px solid #EBC3CD;
@@ -154,18 +155,19 @@ body {
 
 .info-label {
   display: block;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   color: #A0AEC0;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 
 .info-main {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
+
 .icon {
   width: 26px;
   height: 26px;
