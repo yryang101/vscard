@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>웹명함 카드</title>
+  <title>양예리 웹명함</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=3" />
   <script src="script.js" defer></script>
 </head>
 
@@ -17,9 +17,16 @@
 
     <h1 class="name">양예리</h1>
     <p class="role">사업 PM</p>
+
     <p class="status-message">
-      유저 경험과 비즈니스 가치를 함께 고민하는 PM
+      데이터를 기반으로 유저 경험과 비즈니스 성장을 연결하는 PM
     </p>
+
+    <div class="tags">
+      <span class="tag">🎮 Game Business PM</span>
+      <span class="tag">📊 Data-driven Thinking</span>
+      <span class="tag">🤝 Communication</span>
+    </div>
 
     <div class="info">
       <button type="button" class="info-item" data-copy="yryang@example.com">
@@ -32,15 +39,17 @@
         <span>010-1234-5678</span>
       </button>
 
-      <a class="info-link" href="https://github.com/yryang101" target="_blank">
-        <span class="icon">💻</span>
-        <span>My Github</span>
-      </a>
+      <div class="link-row">
+        <a class="info-link" href="https://github.com/yryang101" target="_blank">
+          <span class="icon">💻</span>
+          <span>Github</span>
+        </a>
 
-      <a class="info-link" href="https://yryangportfolio.atoms.world" target="_blank">
-        <span class="icon">✨</span>
-        <span>My Portfolio</span>
-      </a>
+        <a class="info-link" href="https://yryangportfolio.atoms.world" target="_blank">
+          <span class="icon">✨</span>
+          <span>Portfolio</span>
+        </a>
+      </div>
     </div>
 
     <p class="copy-message" id="copyMessage"></p>

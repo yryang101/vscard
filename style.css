@@ -71,8 +71,25 @@ body {
   font-size: 12px;
   line-height: 1.5;
   color: #718096;
-  margin-bottom: 22px;
+  margin-bottom: 14px;
   word-break: keep-all;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+
+.tag {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #FAF1F4;
+  border: 1px solid #EBC3CD;
+  font-size: 11px;
+  font-weight: 600;
+  color: #2D3748;
 }
 
 .info {
@@ -114,12 +131,24 @@ body {
   box-shadow: 0 8px 18px rgba(235, 195, 205, 0.45);
 }
 
+.link-row {
+  display: flex;
+  gap: 12px;
+}
+
+.link-row .info-link {
+  flex: 1;
+  justify-content: center;
+  padding: 14px 10px;
+}
+
 .icon {
   width: 26px;
   height: 26px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   background: #FFFFFF;
   border-radius: 50%;
   font-size: 13px;
