@@ -68,10 +68,10 @@ body {
 }
 
 .status-message {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.5;
   color: #718096;
-  margin-bottom: 26px;
+  margin-bottom: 22px;
   word-break: keep-all;
 }
 
@@ -99,6 +99,12 @@ body {
   cursor: pointer;
   text-decoration: none;
   transition: all 0.2s ease;
+}
+
+.info-link:link,
+.info-link:visited {
+  color: #2D3748;
+  text-decoration: none;
 }
 
 .info-item:hover,
