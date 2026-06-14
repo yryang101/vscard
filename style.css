@@ -154,10 +154,10 @@ body {
 }
 
 .info-label {
-  font-size: 8px;
+  font-size: 9px;
   font-weight: 800;
   letter-spacing: 0.8px;
-  color: #718096;
+  color: #64748B;
   margin-bottom: 1px;
 }
 
@@ -166,8 +166,8 @@ body {
   align-items: center;
   gap: 10px;
   font-size: 15px;
-  color: #2D3748;
-  font-weight: 600;
+  color: #374151;
+  font-weight: 500;
 }
 
 .icon {
