@@ -22,6 +22,12 @@ body {
   box-shadow: 0 16px 40px rgba(235, 195, 205, 0.35);
   text-align: center;
   border: 1px solid #EBC3CD;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 24px 55px rgba(235, 195, 205, 0.55);
 }
 
 .profile-img {
